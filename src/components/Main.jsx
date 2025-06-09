@@ -2,13 +2,18 @@ import Category from "./Category";
 import labIcon from "../assets/microscope.png";
 import xRayIcon from "../assets/x-ray-test.png";
 import doctorIcon from "../assets/doctor.png";
+import {labs} from "../../data";
+import { useState } from "react";
 
 function Main() {
+  const labsData = labs;
+
   return (
     <main className="p-4 bg-gray-200 flex flex-col gap-4 flex-grow">
       <Category 
         type = "Laboratoires d'analyses"
         icon = {labIcon}
+        data = {labsData}
       />
       <Category 
         type= "Centres d’imagerie"
