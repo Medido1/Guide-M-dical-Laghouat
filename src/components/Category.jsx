@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import Facility from "./Facility";
+import LabFacility from "./LabFacility";
 
 function Category({type, icon, data}) {
   return (
@@ -15,7 +14,7 @@ function Category({type, icon, data}) {
       <ul>
         {data && data.map(item => (
           <li key={item.id}>
-            <Facility item={item}/>
+            <LabFacility item={item}/>
         </li>
         ))}
       </ul>

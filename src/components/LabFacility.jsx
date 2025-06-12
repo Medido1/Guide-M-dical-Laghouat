@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaPhoneVolume } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 
-function Facility({item}) {
+function LabFacility({item}) {
   const {name, phone, adress, workTime} = item
   const [copied, setCopied] = useState(false);
 
@@ -20,7 +20,7 @@ function Facility({item}) {
   };
 
   return (
-    <div className="bg-white p-2 mt-2 rounded-lg flex flex-col gap-2 items-center">
+    <div className="bg-white p-2 mt-2 mb-4 pb-4 rounded-lg flex flex-col gap-2 items-center">
       <h3 className="text-xl text-center font-bold mb-2">
         {name}
       </h3>
@@ -33,17 +33,19 @@ function Facility({item}) {
         </p>
         {copied && <span className="text-xs text-green-500 ml-2">Copied!</span>}
       </div>
-      <div className="flex flex-col gap-2 items-center">
+      <div className="flex gap-2 items-center">
         <p className="text-center text-sm">
           {adress}
         </p>
         <FaLocationDot />
       </div>
-      <p>
-        {workTime} اوقات العمل
-      </p>
+      {workTime && 
+        <p>
+          {workTime} اوقات العمل
+        </p>
+      }
     </div>
   )
 }
 
-export default Facility;
+export default LabFacility;
