@@ -14,4 +14,16 @@ const labs = [
   }
 ]
 
-export {labs};
+const doctors = [
+  {
+    id:1,
+    name: "Dr LABBOUB.Kaddour",
+    speciality: "Docteur en médecine allergologie",
+    adress: "Cité El Wiam, en face le lycée Djoudi Belkacem",
+    phone: "029.14.92.92",
+    email: "k.laaboub@hotmail.fr",
+    moreInfo: `Bilan allergologique,test cutané,EFR`
+  }
+]
+
+export {labs, doctors};

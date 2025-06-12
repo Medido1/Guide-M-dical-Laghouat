@@ -1,4 +1,5 @@
 import LabFacility from "./LabFacility";
+import DoctorFacility from "./DoctorFacility";
 
 function Category({type, icon, data}) {
   return (
@@ -14,7 +15,12 @@ function Category({type, icon, data}) {
       <ul>
         {data && data.map(item => (
           <li key={item.id}>
-            <LabFacility item={item}/>
+            {type === "Laboratoires d'analyses" &&
+              <LabFacility item={item}/>
+            }  
+            {type === "Médecins" && 
+              <DoctorFacility item={item}/>
+            }
         </li>
         ))}
       </ul>
