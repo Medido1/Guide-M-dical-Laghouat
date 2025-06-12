@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import useClipboard from "./Utility";
 import { FaPhoneVolume, FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";

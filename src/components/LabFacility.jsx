@@ -7,7 +7,7 @@ function LabFacility({item}) {
 
   return (
     <div className="bg-white p-2 mt-2 mb-4 pb-4 rounded-lg 
-      flex flex-col gap-2 items-center w-[290px]">
+      flex flex-col gap-2 items-center w-[300px]">
       <h3 className="text-xl text-center font-bold mb-2 bg-gray-200 ">
         {name}
       </h3>
