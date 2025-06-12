@@ -10,11 +10,14 @@ function Main() {
   const [labsData, setLabsData] = useState(labs);
   const [doctorsData, setDoctorsData] = useState(doctors);
   const [imagingCentersData, setImagingCentersData] = useState(imagingCenters);
+  const [searchSpeciality, setSearchSpeciality] = useState("");
+  const [showJustDoctors, setShowJustDoctors] = useState(false);
 
   useEffect(() => {
     if (searchTerm.trim() === ""){
       setLabsData(labs);
       setDoctorsData(doctors);
+      setImagingCentersData(imagingCenters);
     } else {
       const searchlabsData = labs.filter(item => 
         item.name.toLowerCase().includes(searchTerm.toLowerCase())
@@ -31,29 +34,74 @@ function Main() {
     }
   },[searchTerm])
 
+  useEffect(() => {
+    if (searchSpeciality === "") {
+      setLabsData(labs);
+      setDoctorsData(doctors);
+      setImagingCentersData(imagingCenters);
+      setShowJustDoctors(false);
+    } else {
+      const searchedDoctorsData = doctors.filter(item => 
+        item.searchTerm === searchSpeciality
+      );
+      setShowJustDoctors(true)
+      setDoctorsData(searchedDoctorsData);
+    }
+    
+    
+  }, [searchSpeciality])
+
   return (
     <main className="p-4 bg-gray-200 flex flex-col gap-4 flex-grow">
-       <div>
-          <label htmlFor="search"></label>
-          <input 
-            value={searchTerm}
-            onChange={e => setSearchTerm(e.target.value)} 
-            type="text"
-            className={`bg-white p-2 w-[50%] rounded
-              border-grey-300 focus:outline-none focus:ring-2
-               focus:ring-blue-400`} 
-            placeholder="Search"/>
-        </div>
-      <Category 
-        type = "Laboratoires d'analyses"
-        icon = {labIcon}
-        data = {labsData}
-      />
-      <Category 
-        type= "Centres d’imagerie"
-        icon= {xRayIcon}
-        data= {imagingCentersData}
-      />
+       <div className="flex">
+          <div>
+            <label htmlFor="search"></label>
+            <input
+              value={searchTerm}
+              onChange={e => setSearchTerm(e.target.value)}
+              type="text"
+              className={`bg-white p-2 w-[80%] rounded
+                border-grey-300 focus:outline-none focus:ring-2
+                 focus:ring-blue-400`}
+              placeholder="Search"/>
+          </div>
+          <div>
+            <label htmlFor="speciality"></label>
+            <select 
+              className="bg-white py-2"
+              onChange={(e) => setSearchSpeciality(e.target.value)}
+              value={searchSpeciality}
+              name="speciality" id="speciality">
+                <option value="">toutes les spécialités</option>
+                <option value="allergologie">allergologie</option>
+                <option value="Médecine générale">Médecine générale</option>
+                <option value="Gynécologie obstétrique">Gynécologie obstétrique</option>
+                <option value="Gynécologie">Gynécologie</option>
+                <option value="Chirurgien Urologue">Chirurgien Urologue</option>
+                <option value="Diabétologie Endocrinologie">Diabétologie Endocrinologie</option>
+                <option value="Médecine interne">Médecine interne</option>
+                <option value="Maladies & chirurgie des yeux">Maladies & chirurgie des yeux</option>
+                <option value="Gastro-entérologie">Gastro-entérologie</option>
+                <option value="Chirurgie Orthopédique">Chirurgie Orthopédique</option>
+                <option value="Neurochirurgue">Neurochirurgue</option>
+                <option value="Dermatologie">Dermatologie</option>
+            </select>
+          </div>
+       </div>
+      {!showJustDoctors && 
+        <Category 
+          type = "Laboratoires d'analyses"
+          icon = {labIcon}
+          data = {labsData}
+        />
+      }
+      {!showJustDoctors &&
+        <Category 
+          type= "Centres d’imagerie"
+          icon= {xRayIcon}
+          data= {imagingCentersData}
+        />
+      }
       <Category 
         type= "Médecins"
         icon= {doctorIcon}
