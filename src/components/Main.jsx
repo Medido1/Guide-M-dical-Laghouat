@@ -4,6 +4,7 @@ import xRayIcon from "../assets/x-ray-test.png";
 import doctorIcon from "../assets/doctor.png";
 import {labs, doctors, imagingCenters} from "../../data";
 import { useEffect, useState } from "react";
+import { FaArrowUpLong } from "react-icons/fa6";
 
 function Main() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -12,6 +13,16 @@ function Main() {
   const [imagingCentersData, setImagingCentersData] = useState(imagingCenters);
   const [searchSpeciality, setSearchSpeciality] = useState("");
   const [showJustDoctors, setShowJustDoctors] = useState(false);
+
+  /* scroll to top logic */
+  const [isVisible, setIsvisible] = useState(false);
+
+  function scrollToTop() {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    })
+  };
 
   useEffect(() => {
     if (searchTerm.trim() === ""){
@@ -107,6 +118,12 @@ function Main() {
         icon= {doctorIcon}
         data = {doctorsData}
       />
+      <button 
+        onClick={scrollToTop}
+        className="block mx-auto border-black
+        border-2 rounded-full bg-white p-2 cursor-pointer">
+        <FaArrowUpLong />
+      </button>
     </main>
   )
 }
