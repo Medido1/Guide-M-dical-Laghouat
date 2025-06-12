@@ -1,23 +1,9 @@
-import { useState } from "react";
-import { FaPhoneVolume } from "react-icons/fa6";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaPhoneVolume, FaLocationDot } from "react-icons/fa6";
+import useClipboard from "./Utility";
 
 function LabFacility({item}) {
   const {name, phone, adress, workTime} = item
-  const [copied, setCopied] = useState(false);
-
-  const copyToClipboard = (text) => {
-    /* Use the Clipboard API to write text to the user's clipboard */
-    navigator.clipboard.writeText(text)
-      .then(() => {
-        setCopied(true);
-        /* Reset the copied state after 2 seconds to hide the feedback */
-        setTimeout(() => setCopied(false), 2000); // Reset after 2 seconds
-      })
-      .catch((err) => {
-        console.error('Failed to copy text: ', err);
-      });
-  };
+  const { copyToClipboard, copied } = useClipboard();
 
   return (
     <div className="bg-white p-2 mt-2 mb-4 pb-4 rounded-lg flex flex-col gap-2 items-center">

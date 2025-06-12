@@ -3,7 +3,7 @@ import labIcon from "../assets/microscope.png";
 import xRayIcon from "../assets/x-ray-test.png";
 import doctorIcon from "../assets/doctor.png";
 import {labs} from "../../data";
-import { useState } from "react";
+
 
 function Main() {
   const labsData = labs;
