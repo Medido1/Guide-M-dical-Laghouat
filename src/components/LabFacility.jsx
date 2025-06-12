@@ -6,8 +6,9 @@ function LabFacility({item}) {
   const { copyToClipboard, copied } = useClipboard();
 
   return (
-    <div className="bg-white p-2 mt-2 mb-4 pb-4 rounded-lg flex flex-col gap-2 items-center">
-      <h3 className="text-xl text-center font-bold mb-2">
+    <div className="bg-white p-2 mt-2 mb-4 pb-4 rounded-lg 
+      flex flex-col gap-2 items-center w-[290px]">
+      <h3 className="text-xl text-center font-bold mb-2 bg-gray-200 ">
         {name}
       </h3>
       <div className="flex gap-2 items-center">

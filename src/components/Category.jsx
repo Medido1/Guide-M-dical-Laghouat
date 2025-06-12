@@ -4,7 +4,7 @@ import DoctorFacility from "./DoctorFacility";
 function Category({type, icon, data}) {
   return (
     <div className="flex flex-col bg-gray-400 p-2 rounded-xl">
-      <div className="flex items-center gap-2">
+      <div className="flex items-center justify-center gap-2">
         <img
           className="w-8"
           src={icon} alt={type} />
@@ -12,7 +12,8 @@ function Category({type, icon, data}) {
           {type}
         </h2>
       </div>
-      <ul>
+      <ul className="flex flex-col items-center
+        sm:grid sm:grid-cols-2 lg:grid-cols-3">
         {data && data.map(item => (
           <li key={item.id}>
             {type === "Laboratoires d'analyses" &&

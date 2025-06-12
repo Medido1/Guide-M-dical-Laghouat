@@ -17,9 +17,9 @@ function DoctorFalcility({item}) {
     phone3, email, moreInfo} = item;
   
   return (
-    <div className="bg-white p-2 mt-2 mb-4 rounded-lg
-      flex flex-col gap-2 items-center justify-center">
-      <h2 className="text-lg font-bold text-center">
+    <div className="bg-white p-2 mt-2 mb-4 rounded-lg shadow-lg
+      flex flex-col gap-2 items-center justify-center w-[290px]">
+      <h2 className="text-lg font-bold text-center bg-gray-200 w-full">
         {name}
       </h2>
       <p className="text-center">

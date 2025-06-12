@@ -64,7 +64,7 @@ function Main() {
 
   return (
     <main className="p-4 bg-gray-200 flex flex-col gap-4 flex-grow">
-       <div className="flex">
+       <div className="flex justify-between">
           <div>
             <label htmlFor="search"></label>
             <input
@@ -98,7 +98,7 @@ function Main() {
                 <option value="Dermatologie">Dermatologie</option>
             </select>
           </div>
-       </div>
+        </div>
       {!showJustDoctors && 
         <Category 
           type = "Laboratoires d'analyses"

@@ -264,8 +264,8 @@ const doctors = [
     name: "Touti.A",
     speciality: "Dermatologie et vénérologie",
     adress: "El Wiam batiment IRIS",
-    phone1: "0658213436",
-    phone2: "0556020164",
+    phone: "0658213436",
+    phone1: "0556020164",
   }
 ]
 
