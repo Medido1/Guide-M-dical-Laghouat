@@ -8,7 +8,7 @@ const labs = [
   },
   {
     id:2,
-    name: "مخبر التحاليل الطبية للدكتور خنفر عماد الدين",
+    name: "Laboratoire D'analyse Médical Dr Khenfar ImadEddien",
     phone: "06.66.73.65.70",
     adress: "حي المقام بجوار متوسطة الرڨ الحاج "
   }
@@ -78,7 +78,7 @@ const doctors = [
   },
   {
     id: 7,
-    name: "Dr. Nasir AbdelHamid",
+    name: "Dr. Nasri AbdelHamid",
     speciality: "Spécialiste en Diabétologie – Endocrinologie et maladies métaboliques",
     adress: "58 Bis, Rue Amar Telidji, Cité Gharbia (Rue de la poste)",
     phone: "092.10.10.03",
