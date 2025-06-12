@@ -2,7 +2,7 @@ import Category from "./Category";
 import labIcon from "../assets/microscope.png";
 import xRayIcon from "../assets/x-ray-test.png";
 import doctorIcon from "../assets/doctor.png";
-import {labs, doctors} from "../../data";
+import {labs, doctors, imagingCenters} from "../../data";
 
 
 function Main() {
@@ -17,6 +17,7 @@ function Main() {
       <Category 
         type= "Centres d’imagerie"
         icon= {xRayIcon}
+        data= {imagingCenters}
       />
       <Category 
         type= "Médecins"

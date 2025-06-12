@@ -18,6 +18,9 @@ function Category({type, icon, data}) {
             {type === "Laboratoires d'analyses" &&
               <LabFacility item={item}/>
             }  
+            {type === "Centres d’imagerie" && 
+              <DoctorFacility item={item}/>
+            }
             {type === "Médecins" && 
               <DoctorFacility item={item}/>
             }

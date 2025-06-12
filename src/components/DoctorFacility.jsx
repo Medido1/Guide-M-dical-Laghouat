@@ -19,7 +19,7 @@ function DoctorFalcility({item}) {
   return (
     <div className="bg-white p-2 mt-2 mb-4 rounded-lg
       flex flex-col gap-2 items-center justify-center">
-      <h2 className="text-lg font-bold">
+      <h2 className="text-lg font-bold text-center">
         {name}
       </h2>
       <p className="text-center">

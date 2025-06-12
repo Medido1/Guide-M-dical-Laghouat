@@ -214,4 +214,26 @@ const doctors = [
   }
 ]
 
-export {labs, doctors};
+const imagingCenters = [
+  {
+    id: 1,
+    name: "Le Centre d’Imagerie Médicale ESPOIR",
+    director: "Dr. M. Laghouati",
+    adress: "Rue BENSAHNOUN lmkam",
+    phone: "05.41.92.27.20",
+    phone2: "07.70.38.94.10",
+    phone3: "020.78.28.77",
+    email: "cim.espoir@gmail.com",
+    workTime: "8:00-00h00"
+  },
+  {
+    id: 2,
+    name: "Centre D'Imagerie Médicale Chifa Dr BENOMAR Laghouat",
+    director: "Dr. BENOMAR",
+    adress: "وراء محكمة الوئام",
+    phone: "06.71.73.10.20",
+    email: "chifaradiology@gmail.com",
+  }
+];
+
+export {labs, doctors, imagingCenters};
