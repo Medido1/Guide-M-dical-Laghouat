@@ -91,11 +91,13 @@ function Main() {
                 <option value="Chirurgien Urologue">Chirurgien Urologue</option>
                 <option value="Diabétologie Endocrinologie">Diabétologie Endocrinologie</option>
                 <option value="Médecine interne">Médecine interne</option>
-                <option value="Maladies & chirurgie des yeux">Maladies & chirurgie des yeux</option>
+                <option value="Ophtalmologie">Ophtalmologie</option>
                 <option value="Gastro-entérologie">Gastro-entérologie</option>
                 <option value="Chirurgie Orthopédique">Chirurgie Orthopédique</option>
                 <option value="Neurochirurgue">Neurochirurgue</option>
                 <option value="Dermatologie">Dermatologie</option>
+                <option value="Cardiologie">Cardiologie</option>
+                <option value="Néphrologie">Néphrologie</option>
             </select>
           </div>
         </div>

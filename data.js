@@ -156,7 +156,7 @@ const doctors = [
   },
   {
     id: 14,
-    searchTerm: "Maladies & chirurgie des yeux",
+    searchTerm: "Ophtalmologie",
     name: "Dr. Taibaoui Souleyman",
     speciality: "Maladies & chirurgie des yeux",
     adress: "مجمع حمدي الطبي بالقرب من صيدلية بن شرشافة الوئام",
@@ -266,6 +266,123 @@ const doctors = [
     adress: "El Wiam batiment IRIS",
     phone: "0658213436",
     phone1: "0556020164",
+  },
+  {
+    id:25,
+    searchTerm: "Ophtalmologie",
+    name: "Takhi.A",
+    speciality: "Maladies et chirurgie des yeux" ,
+    adress: "الوئام طريق عدل قرب الحي الجامعي لذكور 2000 سرير ",
+    phone: "0675488763",
+    moreInfo: "Maladies et Chirurgie des yeux"
+  },
+  {
+    id: 26,
+    searchTerm: "Médecine Générale",
+    name: "Dr Belboul Afaf eps Belaid",
+    speciality: "Médecine Générale",
+    adress: "388, cité la douane (près de la pharmacie Belboul)",
+    phone: "028736014",
+    email: "",
+    moreInfo: ""
+  },
+  {
+    id: 27,
+    searchTerm: "Chirurgie Orthopédique",
+    name: "Dr Benguesmia Mohammed",
+    speciality: "Orthopédie Traumatologie",
+    adress: "حي الوئام وراء المحمكة",
+    phone: "0659165914",
+    phone2: "0557382406",
+    email: "",
+    moreInfo: "طب و جراحة العظام والمفاصل"
+  },
+  {
+    id: 28,
+    searchTerm: "Ophtalmologie",
+    name: "Dr Kada Rachid",
+    speciality: "Maladies et chirurgie des yeux",
+    adress: "El Gharbia Bab Errabt",
+    phone: "029901490",
+    email: "medikada@yahoo.ca",
+    moreInfo: "العيادة مغلقة أيام الأربعاء والخميس"
+  },
+  {
+    id: 29,
+    searchTerm: "Médecine Générale",
+    name: "Dr Benaicha Ishak",
+    speciality: "Médecine Générale",
+    adress: "Cité Oasis Nord",
+    phone: "020793735",
+    email: "",
+    moreInfo: "Médecin urgentiste"
+  },
+  {
+    id: 30,
+    searchTerm: "Cardiologie",
+    name: "Dr Ghorab M.A",
+    speciality: "Cardiologie adulte et pédiatrique",
+    adress: "Cité Wiame Laghouat",
+    phone: "0553807666",
+    email: "GHORABAMINE83@gmail.com",
+    moreInfo: `ECG – Holter ECG – MAPA  
+      Echocardiographie doppler  
+      Epreuve d’effort`
+  },
+  {
+    id: 31,
+    searchTerm: "Gynécologie Obstétrique",
+    name: "Dr Guenou Khadidja",
+    speciality: "Spécialiste en gynécologie obstétrique",
+    adress: "Rue Elhorma Ahmed M’kam Laghouat",
+    phone: "0558406997",
+    phone2: "0655421429",
+    email: "",
+    moreInfo: "Stérilité – Échographie Doppler – ERCF – Colposcopie"
+  },
+  {
+    id: 32,
+    searchTerm: "Médecine Générale",
+    name: "Dr Hamdi Amina",
+    speciality: "Médecine Générale",
+    adress: "Cité Esaada Oasis Nord",
+    phone: "0559853067",
+    email: "",
+    moreInfo: "Échographie 3D-4D – Suivi de grossesse"
+  },
+  {
+    id: 33,
+    searchTerm: "Gynécologie Obstétrique",
+    name: "Dr Souiah A.",
+    speciality: "Spécialiste en gynécologie obstétrique",
+    adress: "El Gharbia",
+    phone: "0664158338",
+    email: "",
+    moreInfo: `Suivi de grossesse normale et à risque  
+      Échographie pelvienne et obstétricale  
+      Stérilité du couple, maladie des seins  
+      Accouchement normal et césarienne`
+  },
+  {
+    id: 34,
+    searchTerm: "Néphrologie",
+    name: "Dr Nait Elhocine A",
+    speciality: "Spécialiste en néphrologie",
+    adress: "Cité 252 Logements groupement 152 Maamourah",
+    phone: "029102260",
+    phone2: "0772448978",
+    email: "",
+    moreInfo: ""
+  },
+  {
+    id: 35,
+    searchTerm: "Médecine Générale",
+    name: "Dr Benarous Nadjia",
+    speciality: "Médecine Générale",
+    adress: "Schettet El-Gharbi",
+    phone: "0673306414",
+    email: "",
+    moreInfo: ""
   }
 ]
 
