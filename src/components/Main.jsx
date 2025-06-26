@@ -5,6 +5,7 @@ import doctorIcon from "../assets/doctor.png";
 import {labs, doctors, imagingCenters} from "../../data";
 import { useEffect, useState } from "react";
 import { FaArrowUpLong } from "react-icons/fa6";
+import { FaSearch } from "react-icons/fa"
 
 function Main() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -62,16 +63,17 @@ function Main() {
   return (
     <main className="p-4 bg-gray-200 flex flex-col gap-4 flex-grow">
        <div className="flex justify-between">
-          <div>
+          <div className="relative">
             <label htmlFor="search"></label>
             <input
               value={searchTerm}
               onChange={e => setSearchTerm(e.target.value)}
               type="text"
-              className={`bg-white p-2 w-[80%] rounded
+              className={`bg-white p-2 pl-10 w-[70%] rounded
                 border-grey-300 focus:outline-none focus:ring-2
                  focus:ring-blue-400`}
               placeholder="Search"/>
+              <FaSearch className="absolute top-1/2 left-2  -translate-y-1/2"/>
           </div>
           <div>
             <label htmlFor="speciality"></label>
