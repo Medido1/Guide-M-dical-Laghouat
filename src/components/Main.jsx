@@ -65,15 +65,18 @@ function Main() {
        <div className="flex justify-between">
           <div className="relative">
             <label htmlFor="search"></label>
-            <input
+            <input 
               value={searchTerm}
+              type="text" 
+              placeholder="Search"
               onChange={e => setSearchTerm(e.target.value)}
-              type="text"
-              className={`bg-white p-2 pl-10 w-[70%] rounded
-                border-grey-300 focus:outline-none focus:ring-2
-                 focus:ring-blue-400`}
-              placeholder="Search"/>
-              <FaSearch className="absolute top-1/2 left-2  -translate-y-1/2"/>
+              className="pl-10 p-2" 
+            />
+            <span className="bottom"></span>
+            <span className="right"></span>
+            <span className="top"></span>
+            <span className="left"></span>
+            <FaSearch className="absolute top-1/2 left-3  -translate-y-1/2"/> 
           </div>
           <div>
             <label htmlFor="speciality"></label>
