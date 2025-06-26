@@ -1,12 +1,49 @@
-# React + Vite
+# Guide medical Laghouat
+## Table of contents
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- [Overview](#overview)
+  - [Discription](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Discription
 
-## Expanding the ESLint configuration
+Guide Medical Laghouat is a web application designed to provide quick and easy access to information about medical facilities and healthcare professionals in laghouat. The platform aims to help residents find hospitals, clinics, and doctors based on location, specialty, and available services.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Key Features
+
+-Browse a comprehensive list of local clinics, and medical centers.
+-View detailed profiles of doctors, including their specialties and contact information.
+-Search and filter based on medical specialty.
+-Mobile-friendly, responsive design for easy access on all devices.
+
+### Screenshot
+
+  ## Desktop
+  ![](./screenshots/desktop.png)
+
+  ## DateBase
+  ![](./screenshots/Mobile.png)
+
+### Links
+
+- Live Site URL: [live site](https://guidemedicallaghouat.netlify.app/)
+
+## My process
+
+### Built with
+
+- TailwindCSS
+- React
+- Flexbox
+
+## Author
+
+- GitHub - [@Medido1](https://github.com/Medido1)
+
+
