@@ -120,12 +120,14 @@ function Main() {
         icon= {doctorIcon}
         data = {doctorsData}
       />
-      <button 
-        onClick={scrollToTop}
-        className="block mx-auto border-black
-        border-2 rounded-full bg-white p-2 cursor-pointer">
-        <FaArrowUpLong />
-      </button>
+      <div>
+        <button
+          onClick={scrollToTop}
+          className="btn"
+          >
+          <FaArrowUpLong className="icon"/>
+        </button>
+      </div>
     </main>
   )
 }
