@@ -2,7 +2,7 @@ import { GiMedicalDrip } from "react-icons/gi";
 
 function Header() {
   return (
-    <header className="bg-blue-200 p-4 flex flex-col gap-2 items-center justify-center shadow-lg">
+    <header className="header p-4 flex flex-col gap-2 items-center justify-center shadow-lg">
       <div className="flex gap-2 items-center">
         <GiMedicalDrip />
         <h1 className="text-2xl font-bold">

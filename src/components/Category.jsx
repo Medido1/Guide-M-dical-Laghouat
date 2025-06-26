@@ -3,7 +3,7 @@ import DoctorFacility from "./DoctorFacility";
 
 function Category({type, icon, data}) {
   return (
-    <div className="flex flex-col bg-gray-400 p-2 sm:p-0.5 md:p-2 rounded-xl">
+    <div className="category flex flex-col p-2 sm:p-0.5 md:p-2 rounded-xl">
       <div className="flex items-center justify-center gap-2">
         <img
           className="w-8"
