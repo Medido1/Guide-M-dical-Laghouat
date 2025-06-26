@@ -1,4 +1,5 @@
 import { FaPhoneVolume, FaLocationDot } from "react-icons/fa6";
+import { FaCopy } from "react-icons/fa";
 import useClipboard from "./Utility";
 
 function LabFacility({item}) {
@@ -13,11 +14,8 @@ function LabFacility({item}) {
       </h3>
       <div className="flex gap-2 items-center">
         <FaPhoneVolume />
-        <p
-          className="cursor-pointer"
-          onClick={() => copyToClipboard(`${phone}`)}>
-        {phone}
-        </p>
+        <p> {phone} </p>
+        <FaCopy className="cursor-pointer" onClick={() => copyToClipboard(`${phone}`)}/>
         {copied && <span className="text-xs text-green-500 ml-2">Copied!</span>}
       </div>
       <div className="flex gap-2 items-center">

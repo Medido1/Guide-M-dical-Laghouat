@@ -2,6 +2,7 @@ import { useState } from "react";
 import useClipboard from "./Utility";
 import { FaPhoneVolume, FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
+import { FaCopy } from "react-icons/fa";
 
 function DoctorFalcility({item}) {
   const { copyToClipboard, copied } = useClipboard();
@@ -27,34 +28,25 @@ function DoctorFalcility({item}) {
       </p>
       <p className="text-center">{adress} <FaLocationDot className="inline-block"/></p>
       <div className="flex gap-2 items-center">
-        <p
-          className="cursor-pointer"
-          onClick={() => selectAndCopy(`${phone}`)}
-        >
-          <FaPhoneVolume className="inline-block" /> {phone}
-        </p>
+        <FaPhoneVolume className="inline-block" />
+        <p> {phone} </p>
+        <FaCopy className="cursor-pointer" onClick={() => selectAndCopy(`${phone}`)}/>
         {copied && isSelected == `${phone}` && <span className="text-xs text-green-500 ml-2">Copied!</span>}
       </div>
       {phone2 &&
         <div className="flex gap-2 items-center">
-          <p
-            className="cursor-pointer"
-            onClick={() => selectAndCopy(`${phone2}`)}
-          >
-            <FaPhoneVolume className="inline-block" /> {phone2}
-          </p>
+          <FaPhoneVolume className="inline-block" />
+          <p> {phone2}</p>
+          <FaCopy className="cursor-pointer"  onClick={() => selectAndCopy(`${phone2}`)}/>
           {copied && isSelected == `${phone2}` && 
           <span className="text-xs text-green-500 ml-2">Copied!</span>}
       </div>
       }
       {phone3 &&
         <div className="flex gap-2 items-center">
-          <p
-            className="cursor-pointer"
-            onClick={() => selectAndCopy(`${phone3}`)}
-          >
-            <FaPhoneVolume className="inline-block" /> {phone3}
-          </p>
+          <FaPhoneVolume className="inline-block" /> {phone3}
+          <p>{phone3}</p>
+          <FaCopy className="cursor-pointer" onClick={() => selectAndCopy(`${phone3}`)}/>
           {copied && isSelected == `${phone3}` && 
           <span className="text-xs text-green-500 ml-2">Copied!</span>}
       </div>

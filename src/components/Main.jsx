@@ -14,9 +14,6 @@ function Main() {
   const [searchSpeciality, setSearchSpeciality] = useState("");
   const [showJustDoctors, setShowJustDoctors] = useState(false);
 
-  /* scroll to top logic */
-  const [isVisible, setIsvisible] = useState(false);
-
   function scrollToTop() {
     window.scrollTo({
       top: 0,
