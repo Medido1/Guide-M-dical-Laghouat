@@ -100,6 +100,7 @@ function Main() {
                 <option value="Dermatologie">Dermatologie</option>
                 <option value="Cardiologie">Cardiologie</option>
                 <option value="Néphrologie">Néphrologie</option>
+                <option value="Dentist">Dentist</option>
             </select>
           </div>
         </div>

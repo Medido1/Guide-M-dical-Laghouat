@@ -383,6 +383,15 @@ const doctors = [
     phone: "0673306414",
     email: "",
     moreInfo: ""
+  },
+  {
+    id:36,
+    searchTerm: "Dentist",
+    name:"Dr Oulmehdi.w Épse Bouchria ",
+    speciality: "Cabinet Dentaire",
+    adress: "Cité el-wiam en face des bâtiments SAHRAOUI",
+    phone: "0656769557",
+    moreInfo: "Soins dentaires, extractions, soin des gencives et détartrage, blanchiment"
   }
 ]
 
