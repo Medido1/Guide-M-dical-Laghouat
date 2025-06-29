@@ -56,10 +56,27 @@ function Main() {
       setShowJustDoctors(true)
       setDoctorsData(searchedDoctorsData);
     }
-    
-    
   }, [searchSpeciality])
 
+  const specialities = [
+    { value: "", label: "toutes les spécialités" },
+    { value: "allergologie", label: "allergologie" },
+    { value: "Médecine générale", label: "Médecine générale" },
+    { value: "Gynécologie obstétrique", label: "Gynécologie obstétrique" },
+    { value: "Gynécologie", label: "Gynécologie" },
+    { value: "Chirurgien Urologue", label: "Chirurgien Urologue" },
+    { value: "Diabétologie Endocrinologie", label: "Diabétologie Endocrinologie" },
+    { value: "Médecine interne", label: "Médecine interne" },
+    { value: "Ophtalmologie", label: "Ophtalmologie" },
+    { value: "Gastro-entérologie", label: "Gastro-entérologie" },
+    { value: "Chirurgie Orthopédique", label: "Chirurgie Orthopédique" },
+    { value: "Neurochirurgue", label: "Neurochirurgue" },
+    { value: "Dermatologie", label: "Dermatologie" },
+    { value: "Cardiologie", label: "Cardiologie" },
+    { value: "Néphrologie", label: "Néphrologie" },
+    { value: "Dentist", label: "Dentist" },
+  ];
+  
   return (
     <main className="p-4 bg-gray-200 flex flex-col gap-4 flex-grow">
        <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
@@ -78,29 +95,18 @@ function Main() {
             <span className="left"></span>
             <FaSearch className="absolute top-1/2 left-3  -translate-y-1/2"/> 
           </div>
-          <div>
+          <div className="mr-2">
             <label htmlFor="speciality"></label>
             <select 
               className="bg-white py-2"
               onChange={(e) => setSearchSpeciality(e.target.value)}
               value={searchSpeciality}
               name="speciality" id="speciality">
-                <option value="">toutes les spécialités</option>
-                <option value="allergologie">allergologie</option>
-                <option value="Médecine générale">Médecine générale</option>
-                <option value="Gynécologie obstétrique">Gynécologie obstétrique</option>
-                <option value="Gynécologie">Gynécologie</option>
-                <option value="Chirurgien Urologue">Chirurgien Urologue</option>
-                <option value="Diabétologie Endocrinologie">Diabétologie Endocrinologie</option>
-                <option value="Médecine interne">Médecine interne</option>
-                <option value="Ophtalmologie">Ophtalmologie</option>
-                <option value="Gastro-entérologie">Gastro-entérologie</option>
-                <option value="Chirurgie Orthopédique">Chirurgie Orthopédique</option>
-                <option value="Neurochirurgue">Neurochirurgue</option>
-                <option value="Dermatologie">Dermatologie</option>
-                <option value="Cardiologie">Cardiologie</option>
-                <option value="Néphrologie">Néphrologie</option>
-                <option value="Dentist">Dentist</option>
+                {specialities.map(({value, label}) => (
+                  <option key={value} value={value}>
+                    {label}
+                  </option>
+                ))}
             </select>
           </div>
         </div>

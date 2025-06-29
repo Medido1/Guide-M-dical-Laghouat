@@ -68,7 +68,8 @@ function DoctorFalcility({item}) {
           <button
             onClick={() => setShowMore(prev => !prev)}
             type="button"
-            className="px-4 bg-blue-200 font-bold rounded-full">
+            className="px-4 bg-blue-200 font-bold 
+            rounded-full cursor-pointer">
             {showMore ? "Afficher moins" : "Afficher plus"}
           </button>
           {showMore && (
