@@ -75,6 +75,8 @@ function Main() {
     { value: "Cardiologie", label: "Cardiologie" },
     { value: "Néphrologie", label: "Néphrologie" },
     { value: "Dentist", label: "Dentist" },
+    { value: "Hématologue", label: "Hématologue"},
+    { value: "Neurologie", label: "Neurologie"},
   ];
   
   return (

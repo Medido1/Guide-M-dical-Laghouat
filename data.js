@@ -392,6 +392,62 @@ const doctors = [
     adress: "Cité el-wiam en face des bâtiments SAHRAOUI",
     phone: "0656769557",
     moreInfo: "Soins dentaires, extractions, soin des gencives et détartrage, blanchiment"
+  },
+  {
+    id:37,
+    seachTerm: "Dentist",
+    name:"Dr Idriss Belbali",
+    speciality: "Dentist, Orthodontist",
+    adress: "Cité Maamoura Bouameur, en Face du grand Bazar",
+    phone: "0662279191"
+  },
+  {
+    id:38,
+    searchTerm: "Dentist",
+    name: "Dr Bentaieb Bohamed",
+    speciality: "Dentist",
+    adress: "n 8. Bat E. Cite 128 LSP m'hafir (mostakbel)",
+    phone: "028732323"
+  },
+  {
+    id:39,
+    searchTerm: "Dentist",
+    name:"Dr Belboul Mohamed Amine",
+    speciality: "Dentist",
+    adress: "rue maamoura près des grossistes",
+    phone: "0658509848"
+  },
+  {
+    id:40,
+    searchTerm: "MédecineGénérale ",
+    name: "CHETTIH.F née Mansouri",
+    speciality: "Médecine Générale",
+    adress: "Schettet elgharbi	",
+    phone: "029118250",
+  },
+  {
+    id:41,
+    searchTerm: "Chirurgien Urologue",
+    name: "KORICHI THAMEUR",
+    speciality: "Chirurgien urologue",
+    adress: "Aflou",
+    phone: "0770269948"
+  }, {
+    id:42,
+    searchTerm: "Hématologue",
+    name: "Dr Saidani.K",
+    speciality: "Hématologue",
+    adress: "رقم 140, حي المصالحة 240 مسكن تساهمي",
+    phone: "0551580206"
+  },
+  {
+    id: 43,
+    searchTerm: "Neurologie",
+    name: "DR Dameche",
+    speciality: "Spécialist en neurologie",
+    adress: "Av docteur saadane",
+    phone: "029134960",
+    phone2: "0775103192",
   }
 ]
 
