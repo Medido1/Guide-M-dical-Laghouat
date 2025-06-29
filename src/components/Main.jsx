@@ -62,8 +62,8 @@ function Main() {
 
   return (
     <main className="p-4 bg-gray-200 flex flex-col gap-4 flex-grow">
-       <div className="flex justify-between">
-          <div className="relative">
+       <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
+          <div className="relative ">
             <label htmlFor="search"></label>
             <input 
               value={searchTerm}
