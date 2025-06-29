@@ -31,7 +31,7 @@ function DoctorFalcility({item}) {
         <FaPhoneVolume className="inline-block" />
         <p> {phone} </p>
         <FaCopy className="cursor-pointer" onClick={() => selectAndCopy(`${phone}`)}/>
-        {copied && isSelected == `${phone}` && <span className="text-xs text-green-500 ml-2">Copied!</span>}
+        {copied && isSelected == `${phone}` && <p className="text-xs text-green-500 ml-2">Copied!</p>}
       </div>
       {phone2 &&
         <div className="flex gap-2 items-center">

@@ -16,7 +16,10 @@ function LabFacility({item}) {
         <FaPhoneVolume />
         <p> {phone} </p>
         <FaCopy className="cursor-pointer" onClick={() => copyToClipboard(`${phone}`)}/>
-        {copied && <span className="text-xs text-green-500 ml-2">Copied!</span>}
+        {copied && 
+        <p className="text-xs text-green-500">
+          Copied!
+        </p>}
       </div>
       <div className="flex gap-2 items-center">
         <p className="text-center text-sm">
