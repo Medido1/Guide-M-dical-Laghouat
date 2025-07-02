@@ -77,6 +77,10 @@ function Main() {
     { value: "Dentist", label: "Dentist" },
     { value: "Hématologue", label: "Hématologue"},
     { value: "Neurologie", label: "Neurologie"},
+    { value: "Anesthésie Réanimation", label: "Anesthésie Réanimation"},
+    { value: "Rhumatologie", label: "Rhumatologie"},
+    { value: "Pédiatrie", label: "Pédiatrie"},
+    { value: "Chirurgie Générale", label: "Chirurgie Générale"}
   ];
   
   return (

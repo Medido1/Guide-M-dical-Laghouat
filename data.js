@@ -448,7 +448,153 @@ const doctors = [
     adress: "Av docteur saadane",
     phone: "029134960",
     phone2: "0775103192",
-  }
+  },
+  {
+    id: 44,
+    searchTerm: "Médecine Générale",
+    name: "Dr Grine Med Lamine",
+    speciality: "Médecine Générale",
+    adress: "Cité Bouameur maamoura",
+    phone: "0770570038"
+  },
+  {
+    id: 45,
+    searchTerm: "Médecine Générale",
+    name: "Dr Mouhouch Said",
+    speciality: "Médecine Générale",
+    adress: "Bellil – Hassi R’mel",
+    phone: "0699265665"
+  },
+  {
+    id: 46,
+    searchTerm: "Anesthésie Réanimation",
+    name: "Dr Touhami.B",
+    speciality: "Spécialiste en Anesthésie Réanimation",
+    adress: "Rue ElKhansaa El Gharbia",
+    phone: "0773264279",
+    moreInfo: "Examen pré-anesthésique, HTA, Diabète"
+  },
+  {
+    id: 47,
+    searchTerm: "Rhumatologie",
+    name: "Boulaghmen / Benrahal.B",
+    speciality: "Médecin rhumatologue",
+    adress: "El Gharbia",
+    phone: "0663221438",
+    moreInfo: "Infiltration intra-articulaire et intradurale\nمختصة في أمراض العظام والروماتيزم"
+  },
+  {
+    id: 48,
+    searchTerm: "Diabétologie Endocrinologie",
+    name: "Dr Khoukhi.A",
+    speciality: "Endocrinologie",
+    adress: "Cité 800 logements à côté de lycée Mimouni AEK",
+    phone: "0697998287",
+    phone2: "029125826",
+    moreInfo: "أمراض السكري والغدد الصماء"
+  },
+  {
+    id: 49,
+    searchTerm: "Néphrologie",
+    name: "Dr Khoukhi Karim",
+    speciality: "Néphrologie",
+    adress: "Cité 800 logements à côté de lycée Mimouni AEK",
+    phone: "0697998287",
+    phone2: "029125826",
+    moreInfo: "أخصائي أمراض الكلى والجهاز البولي"
+  },
+  {
+    id: 50,
+    searchTerm: "Dermatologie",
+    name: "Dr Hassani Mohamed",
+    speciality: "Dermatologue Vénérologue",
+    adress: "50 Bis, Rue Amar Telidji, cité Gharbia (rue de la poste)",
+    phone: "029101708",
+    moreInfo: `Maladies de peau, ongles, cuir chevelu\nChirurgie Dermatologique – 
+    Cryothérapie\nEpilation – ionophorèse – lasers`
+  },
+  {
+    id: 51,
+    searchTerm: "Pédiatrie",
+    name: "Dr Chehami Ahmed",
+    speciality: "Pédiatre",
+    adress: "Hai El Gharbia",
+    phone: "029101735",
+    email: "Chehami@hotmail.com"
+  },
+  {
+    id: 52,
+    searchTerm: "Médecine Générale",
+    name: "Dr Aissat Ahmed",
+    speciality: "Médecine Généraliste",
+    adress: "حي قسمية بن حرزالله / قصر الحيران",
+    phone: "0673001046",
+    phone2: "029139302"
+  },
+  {
+    id: 53,
+    searchTerm: "Chirurgie Générale",
+    name: "Dr Hamek Azzeddine",
+    speciality: "Spécialiste en Chirurgie Générale et Coelioscopique",
+    adress: "شارع الأمير عبدالقادر حي 80 سكن عمارة رقم 7 افلو",
+    phone: "0552912659"
+  },
+  {
+    id: 54,
+    searchTerm: "Echographie",
+    name: "Dr Benothmane Djamal",
+    speciality: "Médecine Générale",
+    adress: "Rue Dr Saadane",
+    phone: "029134962",
+    moreInfo: "Echographie abdominale, gynéco-obstétricale, thyroïde, sein\nMAPA, ECG, IPS"
+  },
+  {
+    id: 55,
+    searchTerm: "Chirurgie Générale",
+    name: "Dr Selmane Youcef",
+    speciality: "Spécialiste en Chirurgie Générale",
+    adress: "شارع فرانس فانون أفلو",
+    phone: "029161795",
+    phone2: "0699438266",
+    moreInfo: "Chirurgie Viscérale et Coelio – Chirurgie"
+  },
+  {
+    id: 56,
+    searchTerm: "Médecine Générale",
+    name: "Dr Rezgallah.Y",
+    speciality: "Médecine Générale",
+    adress: "Cité El M’Kam Maamourah",
+    phone: "029116501",
+    phone2: "0696986655",
+    moreInfo: "Échographie – Mésothérapie"
+  },
+  {
+    id: 57,
+    searchTerm: "Médecine Générale",
+    name: "Dr Houamdi Youcef",
+    speciality: "Médecin Généraliste",
+    adress: "Cité M’kam en face lycée Hadj Aissa",
+    phone: "0655547285"
+  },
+  {
+    id: 58,
+    searchTerm: "Médecine Générale",
+    name: "Dr Daoudi Ahmida",
+    speciality: "Médecine Générale",
+    adress: "Ain Madhi",
+    phone: "0669289906",
+    moreInfo: "Méothérapie"
+  },
+  {
+    id: 59,
+    searchTerm: "Hépato-Gastro-Entérologie",
+    name: "Dr Tadj Djelloul Amine",
+    speciality: "Médecin spécialiste en Hépto-Gastro-Entérologie",
+    adress: "",
+    phone: "0698200030",
+    email: "Tadj-gastroclinic@gmail.com",
+    moreInfo: "Entérologie – Proctologie – Endoscopie digestive"
+  }  
 ]
 
 const imagingCenters = [
@@ -470,6 +616,18 @@ const imagingCenters = [
     adress: "وراء محكمة الوئام",
     phone: "0671731020",
     email: "chifaradiology@gmail.com",
+  },
+  {
+    id: 3,
+    name: "Centre d'imagerie médicale Dr Seifoune Farid",
+    director: "Dr. Seifoune Farid",
+    adress: "Cité El Wiam 591 Logs",
+    phone: "029149912",
+    phone2: "0771996423",
+    email: "farid.seifoune@yahoo.fr",
+    moreInfo: `Scanner hélicoïdal 3D – Radiologie générale – Mammographie\n
+      Échographie générale – Echodoppler couleur – Ostéodensitométrie (D.M.O)\n
+      Panoramique dentaire – Radiologie interventionnelle`
   }
 ];
 
