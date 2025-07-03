@@ -4,26 +4,26 @@ const labs = [
     name: "Laboratoire D'analyse Médical Dr Gherib",
     phone: "0696100200",
     adress: "وراء محكمة الوئام مقابل مسجد عبدالله بن عمر",
-    workTime: "7:30-14:30"
+    workTime: "7:30-14:30",
   },
   {
-    id:2,
+    id: 2,
     name: "Laboratoire D'analyse Médical Dr Khenfar ImadEddien",
     phone: "0666736570",
-    adress: "حي المقام بجوار متوسطة الرڨ الحاج "
-  }
-]
+    adress: "حي المقام بجوار متوسطة الرڨ الحاج ",
+  },
+];
 
 const doctors = [
   {
-    id:1,
+    id: 1,
     searchTerm: "allergologie",
     name: "Dr LABBOUB.Kaddour",
     speciality: "Docteur en médecine allergologie",
     adress: "Cité El Wiam, en face le lycée Djoudi Belkacem",
     phone: "029149292",
     email: "k.laaboub@hotmail.fr",
-    moreInfo: `Bilan allergologique,test cutané,EFR`
+    moreInfo: `Bilan allergologique,test cutané,EFR`,
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const doctors = [
     phone: "0557106449",
     phone2: "0699578450",
     email: "",
-    moreInfo: "Echographie"
+    moreInfo: "Echographie",
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ const doctors = [
     phone: "029101585",
     phone2: "0662511456",
     email: "",
-    moreInfo: "Néo.Nat.contraception stérilité, Echographie"
+    moreInfo: "Néo.Nat.contraception stérilité, Echographie",
   },
   {
     id: 4,
@@ -58,7 +58,7 @@ const doctors = [
     phone3: "020782791",
     email: "Dr.bahat.sofiane.urologuqe@gmail.com",
     moreInfo: `Chirurgie et maladie du Rein des voies Urinaires,
-     Endoscopie (Prostate, Vessie et calculs), Stérilité Masculine et impuissance, Circoncision`
+     Endoscopie (Prostate, Vessie et calculs), Stérilité Masculine et impuissance, Circoncision`,
   },
   {
     id: 5,
@@ -70,7 +70,7 @@ const doctors = [
     email: "",
     moreInfo: `Suivi de grossesse, échographie 3D/4D, 
     maladie des seins, Frottis, Colposcopie, hystéroscopie 
-    diagnostic et opératoire, ERCF, Stérilité du couple, Césarienne, Chirurgie Gynécologique`
+    diagnostic et opératoire, ERCF, Stérilité du couple, Césarienne, Chirurgie Gynécologique`,
   },
   {
     id: 6,
@@ -80,17 +80,18 @@ const doctors = [
     adress: "",
     phone: "0675865070",
     email: "",
-    moreInfo: ""
+    moreInfo: "",
   },
   {
     id: 7,
     searchTerm: "Diabétologie Endocrinologie",
     name: "Dr. Nasri AbdelHamid",
-    speciality: "Spécialiste en Diabétologie – Endocrinologie et maladies métaboliques",
+    speciality:
+      "Spécialiste en Diabétologie – Endocrinologie et maladies métaboliques",
     adress: "58 Bis, Rue Amar Telidji, Cité Gharbia (Rue de la poste)",
     phone: "092101003",
     email: "drnasriah@yahoo.fr",
-    moreInfo: ""
+    moreInfo: "",
   },
   {
     id: 8,
@@ -100,17 +101,18 @@ const doctors = [
     adress: "Cité Bouameur Maamourah",
     phone: "029131454",
     email: "",
-    moreInfo: "Accouchements, Stérilité, Maladies du sein, Echographie"
+    moreInfo: "Accouchements, Stérilité, Maladies du sein, Echographie",
   },
   {
     id: 9,
     searchTerm: "Diabétologie Endocrinologie",
     name: "Dr. El NAGA Kamel",
     speciality: "Endocrinologue Diabétologue",
-    adress: "Cité Rezzoug Maamourah en face la Gendarmerie au dessus pharmacie Zerrouki",
+    adress:
+      "Cité Rezzoug Maamourah en face la Gendarmerie au dessus pharmacie Zerrouki",
     phone: "0659828881",
     email: "",
-    moreInfo: ""
+    moreInfo: "",
   },
   {
     id: 10,
@@ -120,7 +122,7 @@ const doctors = [
     adress: "Cité el Wiam En face Bt. Sahraoui",
     phone: "0665973824",
     email: "",
-    moreInfo: ""
+    moreInfo: "",
   },
   {
     id: 11,
@@ -129,10 +131,10 @@ const doctors = [
     speciality: "Médecine interne",
     adress: "El Wiam وراء محكمة الوئام",
     phone: "0553807666",
-    phone2:"029149274",
+    phone2: "029149274",
     email: "",
     moreInfo: `Maladies du cœur et des vaisseaux, Diabète, HTA, 
-      le goitre, gastrologie, ECG, échographie, échocardiographie, MAPA, Holter ECG, épreuve d’effort`
+      le goitre, gastrologie, ECG, échographie, échocardiographie, MAPA, Holter ECG, épreuve d’effort`,
   },
   {
     id: 12,
@@ -142,7 +144,7 @@ const doctors = [
     adress: "Ksar Bezaim Laghouat",
     phone: "0779337630",
     email: "",
-    moreInfo: "ECG"
+    moreInfo: "ECG",
   },
   {
     id: 13,
@@ -152,7 +154,7 @@ const doctors = [
     adress: "Cité EL-Gharbia",
     phone: "0778219869",
     email: "",
-    moreInfo: "Echographie Gynécologique et obstétricale"
+    moreInfo: "Echographie Gynécologique et obstétricale",
   },
   {
     id: 14,
@@ -163,7 +165,7 @@ const doctors = [
     phone: "0542035581",
     phone2: "0664806684",
     email: "Dr.taibaoui.s@gmail.com",
-    moreInfo: ""
+    moreInfo: "",
   },
   {
     id: 15,
@@ -174,7 +176,7 @@ const doctors = [
     phone: "0662396979",
     phone2: "0540284249",
     email: "",
-    moreInfo: ""
+    moreInfo: "",
   },
   {
     id: 16,
@@ -187,7 +189,7 @@ const doctors = [
     email: "Dr.zigham84@gmail.com",
     moreInfo: `Echographie cardiaque, ECG, MAPA,
      Echographie de thyroïde, Echo-Doppler TSA, 
-     Doppler vasculaire artériel et veineux des membres inférieurs et supérieurs`
+     Doppler vasculaire artériel et veineux des membres inférieurs et supérieurs`,
   },
   {
     id: 17,
@@ -197,7 +199,7 @@ const doctors = [
     adress: "Hai el Wiam Laghouat",
     phone: "0557802200",
     email: "",
-    moreInfo: "Déclaration d’Accidents de travail et maladies professionnels"
+    moreInfo: "Déclaration d’Accidents de travail et maladies professionnels",
   },
   {
     id: 18,
@@ -208,7 +210,7 @@ const doctors = [
     phone: "0542094198",
     phone2: "0557370365",
     email: "",
-    moreInfo: "Proctologie Endoscopie digestive"
+    moreInfo: "Proctologie Endoscopie digestive",
   },
   {
     id: 19,
@@ -220,7 +222,7 @@ const doctors = [
     email: "",
     moreInfo: `Echographie trois et quatre dimensions,
      infertilité du couple, chirurgie des maladies des 
-     femmes et césariennes, maladies et chirurgie du sein`
+     femmes et césariennes, maladies et chirurgie du sein`,
   },
   {
     id: 20,
@@ -230,36 +232,36 @@ const doctors = [
     adress: "Kheneg Laghouat",
     phone: "029148020",
     email: "",
-    moreInfo: "Consultation et soins, Echographie"
+    moreInfo: "Consultation et soins, Echographie",
   },
   {
-    id:21,
-    searchTerm:"Chirurgie Orthopédique",
-    name:"Dr. kada djamel",
+    id: 21,
+    searchTerm: "Chirurgie Orthopédique",
+    name: "Dr. kada djamel",
     speciality: "Chirurgie Orthopédique",
     adress: "Marche Couvert Quartier El Gharbia",
     phone: "029101630",
   },
   {
-    id:22,
+    id: 22,
     searchTerm: "Neurochirurgue",
     name: "Dr. Koul Ahmed",
     speciality: "Neurochirurgue",
     adress: "AVENUE DU 1 ER NOVEMBRE 1954",
-    phone:"0664281077",
+    phone: "0664281077",
   },
   {
-    id:23,
+    id: 23,
     searchTerm: "Gynécologie obstétrique",
     name: "Dr. Taleb Mehiri Naima",
     speciality: "Gynécologie",
     adress: "El Gharbia",
     phone: "029101641",
     phone2: "0662591241",
-    moreInfo: "Accouchement, stérilité, Echographie"
+    moreInfo: "Accouchement, stérilité, Echographie",
   },
   {
-    id:24,
+    id: 24,
     searchTerm: "Dermatologie",
     name: "Touti.A",
     speciality: "Dermatologie et vénérologie",
@@ -268,13 +270,13 @@ const doctors = [
     phone1: "0556020164",
   },
   {
-    id:25,
+    id: 25,
     searchTerm: "Ophtalmologie",
     name: "Takhi.A",
-    speciality: "Maladies et chirurgie des yeux" ,
+    speciality: "Maladies et chirurgie des yeux",
     adress: "الوئام طريق عدل قرب الحي الجامعي لذكور 2000 سرير ",
     phone: "0675488763",
-    moreInfo: "Maladies et Chirurgie des yeux"
+    moreInfo: "Maladies et Chirurgie des yeux",
   },
   {
     id: 26,
@@ -284,7 +286,7 @@ const doctors = [
     adress: "388, cité la douane (près de la pharmacie Belboul)",
     phone: "028736014",
     email: "",
-    moreInfo: ""
+    moreInfo: "",
   },
   {
     id: 27,
@@ -295,7 +297,7 @@ const doctors = [
     phone: "0659165914",
     phone2: "0557382406",
     email: "",
-    moreInfo: "طب و جراحة العظام والمفاصل"
+    moreInfo: "طب و جراحة العظام والمفاصل",
   },
   {
     id: 28,
@@ -305,7 +307,7 @@ const doctors = [
     adress: "El Gharbia Bab Errabt",
     phone: "029901490",
     email: "medikada@yahoo.ca",
-    moreInfo: "العيادة مغلقة أيام الأربعاء والخميس"
+    moreInfo: "العيادة مغلقة أيام الأربعاء والخميس",
   },
   {
     id: 29,
@@ -315,7 +317,7 @@ const doctors = [
     adress: "Cité Oasis Nord",
     phone: "020793735",
     email: "",
-    moreInfo: "Médecin urgentiste"
+    moreInfo: "Médecin urgentiste",
   },
   {
     id: 30,
@@ -327,7 +329,7 @@ const doctors = [
     email: "GHORABAMINE83@gmail.com",
     moreInfo: `ECG – Holter ECG – MAPA  
       Echocardiographie doppler  
-      Epreuve d’effort`
+      Epreuve d’effort`,
   },
   {
     id: 31,
@@ -338,7 +340,7 @@ const doctors = [
     phone: "0558406997",
     phone2: "0655421429",
     email: "",
-    moreInfo: "Stérilité – Échographie Doppler – ERCF – Colposcopie"
+    moreInfo: "Stérilité – Échographie Doppler – ERCF – Colposcopie",
   },
   {
     id: 32,
@@ -348,7 +350,7 @@ const doctors = [
     adress: "Cité Esaada Oasis Nord",
     phone: "0559853067",
     email: "",
-    moreInfo: "Échographie 3D-4D – Suivi de grossesse"
+    moreInfo: "Échographie 3D-4D – Suivi de grossesse",
   },
   {
     id: 33,
@@ -361,7 +363,7 @@ const doctors = [
     moreInfo: `Suivi de grossesse normale et à risque  
       Échographie pelvienne et obstétricale  
       Stérilité du couple, maladie des seins  
-      Accouchement normal et césarienne`
+      Accouchement normal et césarienne`,
   },
   {
     id: 34,
@@ -372,7 +374,7 @@ const doctors = [
     phone: "029102260",
     phone2: "0772448978",
     email: "",
-    moreInfo: ""
+    moreInfo: "",
   },
   {
     id: 35,
@@ -382,43 +384,44 @@ const doctors = [
     adress: "Schettet El-Gharbi",
     phone: "0673306414",
     email: "",
-    moreInfo: ""
+    moreInfo: "",
   },
   {
-    id:36,
+    id: 36,
     searchTerm: "Dentist",
-    name:"Dr Oulmehdi.w Épse Bouchria ",
+    name: "Dr Oulmehdi.w Épse Bouchria ",
     speciality: "Cabinet Dentaire",
     adress: "Cité el-wiam en face des bâtiments SAHRAOUI",
     phone: "0656769557",
-    moreInfo: "Soins dentaires, extractions, soin des gencives et détartrage, blanchiment"
+    moreInfo:
+      "Soins dentaires, extractions, soin des gencives et détartrage, blanchiment",
   },
   {
-    id:37,
+    id: 37,
     seachTerm: "Dentist",
-    name:"Dr Idriss Belbali",
+    name: "Dr Idriss Belbali",
     speciality: "Dentist, Orthodontist",
     adress: "Cité Maamoura Bouameur, en Face du grand Bazar",
-    phone: "0662279191"
+    phone: "0662279191",
   },
   {
-    id:38,
+    id: 38,
     searchTerm: "Dentist",
     name: "Dr Bentaieb Bohamed",
     speciality: "Dentist",
     adress: "n 8. Bat E. Cite 128 LSP m'hafir (mostakbel)",
-    phone: "028732323"
+    phone: "028732323",
   },
   {
-    id:39,
+    id: 39,
     searchTerm: "Dentist",
-    name:"Dr Belboul Mohamed Amine",
+    name: "Dr Belboul Mohamed Amine",
     speciality: "Dentist",
     adress: "rue maamoura près des grossistes",
-    phone: "0658509848"
+    phone: "0658509848",
   },
   {
-    id:40,
+    id: 40,
     searchTerm: "MédecineGénérale ",
     name: "CHETTIH.F née Mansouri",
     speciality: "Médecine Générale",
@@ -426,19 +429,20 @@ const doctors = [
     phone: "029118250",
   },
   {
-    id:41,
+    id: 41,
     searchTerm: "Chirurgien Urologue",
     name: "KORICHI THAMEUR",
     speciality: "Chirurgien urologue",
     adress: "Aflou",
-    phone: "0770269948"
-  }, {
-    id:42,
+    phone: "0770269948",
+  },
+  {
+    id: 42,
     searchTerm: "Hématologue",
     name: "Dr Saidani.K",
     speciality: "Hématologue",
     adress: "رقم 140, حي المصالحة 240 مسكن تساهمي",
-    phone: "0551580206"
+    phone: "0551580206",
   },
   {
     id: 43,
@@ -455,7 +459,7 @@ const doctors = [
     name: "Dr Grine Med Lamine",
     speciality: "Médecine Générale",
     adress: "Cité Bouameur maamoura",
-    phone: "0770570038"
+    phone: "0770570038",
   },
   {
     id: 45,
@@ -463,7 +467,7 @@ const doctors = [
     name: "Dr Mouhouch Said",
     speciality: "Médecine Générale",
     adress: "Bellil – Hassi R’mel",
-    phone: "0699265665"
+    phone: "0699265665",
   },
   {
     id: 46,
@@ -472,7 +476,7 @@ const doctors = [
     speciality: "Spécialiste en Anesthésie Réanimation",
     adress: "Rue ElKhansaa El Gharbia",
     phone: "0773264279",
-    moreInfo: "Examen pré-anesthésique, HTA, Diabète"
+    moreInfo: "Examen pré-anesthésique, HTA, Diabète",
   },
   {
     id: 47,
@@ -481,7 +485,8 @@ const doctors = [
     speciality: "Médecin rhumatologue",
     adress: "El Gharbia",
     phone: "0663221438",
-    moreInfo: "Infiltration intra-articulaire et intradurale\nمختصة في أمراض العظام والروماتيزم"
+    moreInfo:
+      "Infiltration intra-articulaire et intradurale\nمختصة في أمراض العظام والروماتيزم",
   },
   {
     id: 48,
@@ -491,7 +496,7 @@ const doctors = [
     adress: "Cité 800 logements à côté de lycée Mimouni AEK",
     phone: "0697998287",
     phone2: "029125826",
-    moreInfo: "أمراض السكري والغدد الصماء"
+    moreInfo: "أمراض السكري والغدد الصماء",
   },
   {
     id: 49,
@@ -501,7 +506,7 @@ const doctors = [
     adress: "Cité 800 logements à côté de lycée Mimouni AEK",
     phone: "0697998287",
     phone2: "029125826",
-    moreInfo: "أخصائي أمراض الكلى والجهاز البولي"
+    moreInfo: "أخصائي أمراض الكلى والجهاز البولي",
   },
   {
     id: 50,
@@ -511,7 +516,7 @@ const doctors = [
     adress: "50 Bis, Rue Amar Telidji, cité Gharbia (rue de la poste)",
     phone: "029101708",
     moreInfo: `Maladies de peau, ongles, cuir chevelu\nChirurgie Dermatologique – 
-    Cryothérapie\nEpilation – ionophorèse – lasers`
+    Cryothérapie\nEpilation – ionophorèse – lasers`,
   },
   {
     id: 51,
@@ -520,7 +525,7 @@ const doctors = [
     speciality: "Pédiatre",
     adress: "Hai El Gharbia",
     phone: "029101735",
-    email: "Chehami@hotmail.com"
+    email: "Chehami@hotmail.com",
   },
   {
     id: 52,
@@ -529,7 +534,7 @@ const doctors = [
     speciality: "Médecine Généraliste",
     adress: "حي قسمية بن حرزالله / قصر الحيران",
     phone: "0673001046",
-    phone2: "029139302"
+    phone2: "029139302",
   },
   {
     id: 53,
@@ -537,7 +542,7 @@ const doctors = [
     name: "Dr Hamek Azzeddine",
     speciality: "Spécialiste en Chirurgie Générale et Coelioscopique",
     adress: "شارع الأمير عبدالقادر حي 80 سكن عمارة رقم 7 افلو",
-    phone: "0552912659"
+    phone: "0552912659",
   },
   {
     id: 54,
@@ -546,7 +551,8 @@ const doctors = [
     speciality: "Médecine Générale",
     adress: "Rue Dr Saadane",
     phone: "029134962",
-    moreInfo: "Echographie abdominale, gynéco-obstétricale, thyroïde, sein\nMAPA, ECG, IPS"
+    moreInfo:
+      "Echographie abdominale, gynéco-obstétricale, thyroïde, sein\nMAPA, ECG, IPS",
   },
   {
     id: 55,
@@ -556,7 +562,7 @@ const doctors = [
     adress: "شارع فرانس فانون أفلو",
     phone: "029161795",
     phone2: "0699438266",
-    moreInfo: "Chirurgie Viscérale et Coelio – Chirurgie"
+    moreInfo: "Chirurgie Viscérale et Coelio – Chirurgie",
   },
   {
     id: 56,
@@ -566,7 +572,7 @@ const doctors = [
     adress: "Cité El M’Kam Maamourah",
     phone: "029116501",
     phone2: "0696986655",
-    moreInfo: "Échographie – Mésothérapie"
+    moreInfo: "Échographie – Mésothérapie",
   },
   {
     id: 57,
@@ -574,7 +580,7 @@ const doctors = [
     name: "Dr Houamdi Youcef",
     speciality: "Médecin Généraliste",
     adress: "Cité M’kam en face lycée Hadj Aissa",
-    phone: "0655547285"
+    phone: "0655547285",
   },
   {
     id: 58,
@@ -583,7 +589,7 @@ const doctors = [
     speciality: "Médecine Générale",
     adress: "Ain Madhi",
     phone: "0669289906",
-    moreInfo: "Méothérapie"
+    moreInfo: "Méothérapie",
   },
   {
     id: 59,
@@ -593,9 +599,17 @@ const doctors = [
     adress: "",
     phone: "0698200030",
     email: "Tadj-gastroclinic@gmail.com",
-    moreInfo: "Entérologie – Proctologie – Endoscopie digestive"
-  }  
-]
+    moreInfo: "Entérologie – Proctologie – Endoscopie digestive",
+  },
+  {
+    id: 60,
+    searcTerm: "Pédiatrie",
+    name: "Dr A.Faïd épse. Ghorab",
+    speciality: "Pédiatre",
+    adress: "وراء محكمة الوئام مقابل مسجد عبدالله بن عمر",
+    phone: "0699067724",
+  },
+];
 
 const imagingCenters = [
   {
@@ -607,7 +621,7 @@ const imagingCenters = [
     phone2: "0770389410",
     phone3: "020782877",
     email: "cim.espoir@gmail.com",
-    workTime: "8:00-00h00"
+    workTime: "8:00-00h00",
   },
   {
     id: 2,
@@ -627,8 +641,8 @@ const imagingCenters = [
     email: "farid.seifoune@yahoo.fr",
     moreInfo: `Scanner hélicoïdal 3D – Radiologie générale – Mammographie\n
       Échographie générale – Echodoppler couleur – Ostéodensitométrie (D.M.O)\n
-      Panoramique dentaire – Radiologie interventionnelle`
-  }
+      Panoramique dentaire – Radiologie interventionnelle`,
+  },
 ];
 
-export {labs, doctors, imagingCenters};
+export { labs, doctors, imagingCenters };
