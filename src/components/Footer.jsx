@@ -12,7 +12,7 @@ function Footer() {
         </p>
       </div>
       <p className="text-white text-center flex items-center gap-2 mt-4 sm:-mt-6">
-        <MdEmail  className="inline-block" />bousalh.moh@gmail.com
+        <MdEmail  className="inline-block" />bousalah.moh@gmail.com
       </p>
     </footer>
   )
