@@ -15,7 +15,7 @@ function DoctorFalcility({item}) {
   }
 
   const {name, speciality, adress, phone,phone2,
-    phone3, email, moreInfo} = item;
+    phone3, email, moreInfo, localisation} = item;
   
   return (
     <div className="bg-white p-2 mt-2 mb-4 rounded-lg shadow-lg
@@ -26,7 +26,15 @@ function DoctorFalcility({item}) {
       <p className="text-center">
         {speciality}
       </p>
-      <p className="text-center">{adress} <FaLocationDot className="inline-block"/></p>
+      {localisation ? 
+        <p className="text-center text-blue-600">
+          <a href={localisation} target="blank">
+            {adress}
+          </a> 
+          <FaLocationDot className="inline-block"/>
+        </p> :
+        <p className="text-center">{adress} <FaLocationDot className="inline-block"/></p>
+      }
       <div className="flex gap-2 items-center">
         <FaPhoneVolume className="inline-block" />
         <p> {phone} </p>

@@ -24,6 +24,7 @@ const doctors = [
     phone: "029149292",
     email: "k.laaboub@hotmail.fr",
     moreInfo: `Bilan allergologique,test cutané,EFR`,
+    localisation: `https://maps.app.goo.gl/HtSHNatssAsZy5ry5`
   },
   {
     id: 2,
