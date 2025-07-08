@@ -609,6 +609,23 @@ const doctors = [
     adress: "وراء محكمة الوئام مقابل مسجد عبدالله بن عمر",
     phone: "0699067724",
   },
+  {
+    id:61,
+    searchTerm:"Médecine Générale",
+    name: "Dr Reggab Ameur",
+    speciality: "médecine Générale",
+    adress: "حي 240 سكن تساهمي الوئام",
+    phone: "0657111880",
+    moreInfo: "Echographie urgence",
+  },
+  {
+    id:62,
+    searchTerm: "Medcine généraliste",
+    name: "Dr Kaci slimane",
+    speciality: "Medcine généraliste, Néonpatologie",
+    adress: "rue mechouar benaissa aflou",
+    phone: "0771991307"
+  }
 ];
 
 const imagingCenters = [
