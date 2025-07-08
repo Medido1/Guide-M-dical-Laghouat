@@ -1,4 +1,6 @@
 import { GiMedicalDrip } from "react-icons/gi";
+import Helper from "./helper";
+
 
 function Header() {
   return (
@@ -12,6 +14,7 @@ function Header() {
       <p className="text-sm text-center">
         Trouvez facilement les laboratoires, centres d’imagerie et médecins à Laghouat. 
       </p>
+      <Helper />
     </header>
   )
 }
