@@ -12,6 +12,13 @@ const labs = [
     phone: "0666736570",
     adress: "حي المقام بجوار متوسطة الرڨ الحاج ",
   },
+  {
+    id:3,
+    name: "Laboratoire d'analyse médical El Wiam",
+    phone: "0666591156",
+    adress: "El wiam",
+    localisation: "https://maps.app.goo.gl/xPLptWTx2xR4MuoVA",
+  }
 ];
 
 const doctors = [
@@ -533,6 +540,7 @@ const doctors = [
     phone: "0697998287",
     phone2: "029125826",
     moreInfo: "أخصائي أمراض الكلى والجهاز البولي",
+    localisation: "https://maps.app.goo.gl/e3rViLcWCRUwfkfp6",
   },
   {
     id: 50,
@@ -543,6 +551,7 @@ const doctors = [
     phone: "029101708",
     moreInfo: `Maladies de peau, ongles, cuir chevelu\nChirurgie Dermatologique – 
     Cryothérapie\nEpilation – ionophorèse – lasers`,
+    localisation: "https://maps.app.goo.gl/t7gUerw32M2b7aEe8",
   },
   {
     id: 51,
@@ -569,6 +578,7 @@ const doctors = [
     speciality: "Spécialiste en Chirurgie Générale et Coelioscopique",
     adress: "شارع الأمير عبدالقادر حي 80 سكن عمارة رقم 7 افلو",
     phone: "0552912659",
+    localisation: "https://maps.app.goo.gl/WqHXfaiUegovGoPi7",
   },
   {
     id: 54,
@@ -613,19 +623,21 @@ const doctors = [
     searchTerm: "Médecine Générale",
     name: "Dr Daoudi Ahmida",
     speciality: "Médecine Générale",
-    adress: "Ain Madhi",
+    adress: "Rue de l'independance",
     phone: "0669289906",
     moreInfo: "Méothérapie",
+    localisation: "https://maps.app.goo.gl/MKyEd3ux3TgmF44W9",
   },
   {
     id: 59,
     searchTerm: "Hépato-Gastro-Entérologie",
     name: "Dr Tadj Djelloul Amine",
     speciality: "Médecin spécialiste en Hépto-Gastro-Entérologie",
-    adress: "",
+    adress: "شارع المقام",
     phone: "0698200030",
     email: "Tadj-gastroclinic@gmail.com",
     moreInfo: "Entérologie – Proctologie – Endoscopie digestive",
+    localisation: "https://maps.app.goo.gl/i1YkudeiofccP5Gg7",
   },
   {
     id: 60,
@@ -634,6 +646,7 @@ const doctors = [
     speciality: "Pédiatre",
     adress: "وراء محكمة الوئام مقابل مسجد عبدالله بن عمر",
     phone: "0699067724",
+    localisation: "https://maps.app.goo.gl/uRdTH15SgGyi5wHs7",
   },
   {
     id:61,
@@ -660,7 +673,8 @@ const doctors = [
     adress: "ksar el hirane",
     phone: "029139595",
     phone2: "0799099991",
-    moreInfo: "Echographie generale, ECG, MAPA"
+    moreInfo: "Echographie generale, ECG, MAPA",
+    localisation: "https://maps.app.goo.gl/okmtRV2M5kt4jdaX6",
   },
   {
     id: 64,
@@ -686,14 +700,16 @@ const imagingCenters = [
     phone3: "020782877",
     email: "cim.espoir@gmail.com",
     workTime: "8:00-00h00",
+    localisation: "https://maps.app.goo.gl/TcoNBSAjRMfGPBqJ7",
   },
   {
     id: 2,
-    name: "Centre D'Imagerie Médicale Chifa Dr BENOMAR Laghouat",
+    name: "Centre D'Imagerie Médicale Chifa Dr BENOMAR",
     director: "Dr. BENOMAR",
     adress: "وراء محكمة الوئام",
     phone: "0671731020",
     email: "chifaradiology@gmail.com",
+    localisation: "https://maps.app.goo.gl/UGRnbM4Pg96hLGGP9",
   },
   {
     id: 3,
@@ -706,6 +722,7 @@ const imagingCenters = [
     moreInfo: `Scanner hélicoïdal 3D – Radiologie générale – Mammographie\n
       Échographie générale – Echodoppler couleur – Ostéodensitométrie (D.M.O)\n
       Panoramique dentaire – Radiologie interventionnelle`,
+    localisation: "https://maps.app.goo.gl/Q7fDCTuganzk4hx16",
   },
 ];
 

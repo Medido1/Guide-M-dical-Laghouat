@@ -3,7 +3,7 @@ import { FaCopy } from "react-icons/fa";
 import useClipboard from "./Utility";
 
 function LabFacility({item}) {
-  const {name, phone, adress, workTime} = item
+  const {name, phone, adress, workTime, localisation} = item
   const { copyToClipboard, copied } = useClipboard();
 
   return (
@@ -21,12 +21,15 @@ function LabFacility({item}) {
           Copied!
         </p>}
       </div>
-      <div className="flex gap-2 items-center">
-        <p className="text-center text-sm">
-          {adress}
-        </p>
-        <FaLocationDot />
-      </div>
+      {localisation ? 
+        <p className="text-center text-blue-600">
+          <a href={localisation} target="blank">
+            {adress}
+          </a> 
+          <FaLocationDot className="inline-block"/>
+        </p> :
+        <p className="text-center">{adress} <FaLocationDot className="inline-block"/></p>
+      }
       {workTime && 
         <p>
           {workTime} اوقات العمل
