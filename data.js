@@ -36,6 +36,7 @@ const doctors = [
     phone2: "0699578450",
     email: "",
     moreInfo: "Echographie",
+    localisation: "https://maps.app.goo.gl/wPrf5nMxaV1UGyMb9",
   },
   {
     id: 3,
@@ -621,11 +622,21 @@ const doctors = [
   },
   {
     id:62,
-    searchTerm: "Medcine généraliste",
+    searchTerm: "Médecine Générale",
     name: "Dr Kaci slimane",
     speciality: "Medcine généraliste, Néonpatologie",
     adress: "rue mechouar benaissa aflou",
     phone: "0771991307"
+  },
+  {
+    id:63,
+    searchTerm: "Médecine Générale",
+    name: "Dr Choucha Noureddine",
+    speciality: "Médecine Générale",
+    adress: "ksar el hirane",
+    phone: "029139595",
+    phone1: "0799099991",
+    moreInfo: "Echographie generale, ECG, MAPA"
   }
 ];
 
