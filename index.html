@@ -6,21 +6,24 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-YRJ29D738H"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-YRJ29D738H');
-    </script>
+      window.addEventListener('DOMContentLoaded', function () {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-YRJ29D738H');
+      });
+    </script>    
     <link rel="shortcut icon" href="./src/assets/stethoscope.png" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Découvrez le guide complet des établissements de
      santé à Laghouat : médecins, laboratoires, centres d'imagerie. Retrouvez adresses
       et numéros de téléphone pour vous orienter facilement.">
     <title>Guide Médical Laghouat</title>
+    <link rel="modulepreload" href="/src/main.jsx" />
+    <script type="module" src="/src/main.jsx" defer></script>
   </head>
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    
   </body>
 </html>
