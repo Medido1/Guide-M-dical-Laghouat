@@ -48,6 +48,7 @@ const doctors = [
     phone2: "0662511456",
     email: "",
     moreInfo: "Néo.Nat.contraception stérilité, Echographie",
+    localisation: "https://maps.app.goo.gl/5ptiRAv28g7tN8aR7",
   },
   {
     id: 4,
@@ -61,6 +62,7 @@ const doctors = [
     email: "Dr.bahat.sofiane.urologuqe@gmail.com",
     moreInfo: `Chirurgie et maladie du Rein des voies Urinaires,
      Endoscopie (Prostate, Vessie et calculs), Stérilité Masculine et impuissance, Circoncision`,
+    localisation: "https://maps.app.goo.gl/beKBZEj5nyaxDBzW8",
   },
   {
     id: 5,
@@ -73,6 +75,7 @@ const doctors = [
     moreInfo: `Suivi de grossesse, échographie 3D/4D, 
     maladie des seins, Frottis, Colposcopie, hystéroscopie 
     diagnostic et opératoire, ERCF, Stérilité du couple, Césarienne, Chirurgie Gynécologique`,
+    localisation: "https://maps.app.goo.gl/wxvA3bsU12SU2Ffh9",
   },
   {
     id: 6,
@@ -94,6 +97,7 @@ const doctors = [
     phone: "092101003",
     email: "drnasriah@yahoo.fr",
     moreInfo: "",
+    localisation: "https://maps.app.goo.gl/AsnzmyzkdqJitvX39"
   },
   {
     id: 8,
@@ -104,6 +108,7 @@ const doctors = [
     phone: "029131454",
     email: "",
     moreInfo: "Accouchements, Stérilité, Maladies du sein, Echographie",
+    localisation: "https://maps.app.goo.gl/LaZsTJDKvxmPiAaR6",
   },
   {
     id: 9,
@@ -124,7 +129,8 @@ const doctors = [
     adress: "Cité el Wiam En face Bt. Sahraoui",
     phone: "0665973824",
     email: "",
-    moreInfo: "",
+    moreInfo: "Echographie, ECG",
+    localisation: "https://maps.app.goo.gl/spTuu7NTi9boWZ3T6",
   },
   {
     id: 11,
@@ -168,6 +174,7 @@ const doctors = [
     phone2: "0664806684",
     email: "Dr.taibaoui.s@gmail.com",
     moreInfo: "",
+    localisation: "https://maps.app.goo.gl/BX5GNiQri146xmex8",
   },
   {
     id: 15,
@@ -196,12 +203,13 @@ const doctors = [
   {
     id: 17,
     searchTerm: "Médecine générale",
-    name: "Dr. Chettikh Aissa",
+    name: "Dr. Chettih Aissa",
     speciality: "Médecin Généraliste",
     adress: "Hai el Wiam Laghouat",
     phone: "0557802200",
     email: "",
     moreInfo: "Déclaration d’Accidents de travail et maladies professionnels",
+    localisation: "https://maps.app.goo.gl/1LtBMiBVRA8VSqXNA",
   },
   {
     id: 18,
@@ -213,6 +221,7 @@ const doctors = [
     phone2: "0557370365",
     email: "",
     moreInfo: "Proctologie Endoscopie digestive",
+    localisation: "https://maps.app.goo.gl/35UyaDRRBbKxHCEL7",
   },
   {
     id: 19,
@@ -243,6 +252,7 @@ const doctors = [
     speciality: "Chirurgie Orthopédique",
     adress: "Marche Couvert Quartier El Gharbia",
     phone: "029101630",
+    localisation: "https://maps.app.goo.gl/Xc3kiJCiAsqGkMhn9",
   },
   {
     id: 22,
@@ -261,20 +271,22 @@ const doctors = [
     phone: "029101641",
     phone2: "0662591241",
     moreInfo: "Accouchement, stérilité, Echographie",
+    localisation: "https://maps.app.goo.gl/B6MdPXtd4UTFgab36",
   },
   {
     id: 24,
     searchTerm: "Dermatologie",
-    name: "Touti.A",
+    name: "Dr Touti.A",
     speciality: "Dermatologie et vénérologie",
     adress: "El Wiam batiment IRIS",
     phone: "0658213436",
-    phone1: "0556020164",
+    phone2: "0556020164",
+    localisation: "https://maps.app.goo.gl/oKwtp8ZzneDS8R4K8",
   },
   {
     id: 25,
     searchTerm: "Ophtalmologie",
-    name: "Takhi.A",
+    name: "Dr Takhi.A",
     speciality: "Maladies et chirurgie des yeux",
     adress: "الوئام طريق عدل قرب الحي الجامعي لذكور 2000 سرير ",
     phone: "0675488763",
@@ -310,6 +322,7 @@ const doctors = [
     phone: "029901490",
     email: "medikada@yahoo.ca",
     moreInfo: "العيادة مغلقة أيام الأربعاء والخميس",
+    localisation: "https://maps.app.goo.gl/iQ1XJh62Cngrgmeu5",
   },
   {
     id: 29,
@@ -343,6 +356,7 @@ const doctors = [
     phone2: "0655421429",
     email: "",
     moreInfo: "Stérilité – Échographie Doppler – ERCF – Colposcopie",
+    localisation: "https://maps.app.goo.gl/hdWXzmeF7FQYcz5bA",
   },
   {
     id: 32,
@@ -353,11 +367,12 @@ const doctors = [
     phone: "0559853067",
     email: "",
     moreInfo: "Échographie 3D-4D – Suivi de grossesse",
+    localisation: "https://maps.app.goo.gl/HJJsCudVs5rEQpQW8",
   },
   {
     id: 33,
     searchTerm: "Gynécologie Obstétrique",
-    name: "Dr Souiah A.",
+    name: "Dr Souiah A",
     speciality: "Spécialiste en gynécologie obstétrique",
     adress: "El Gharbia",
     phone: "0664158338",
@@ -377,6 +392,7 @@ const doctors = [
     phone2: "0772448978",
     email: "",
     moreInfo: "",
+    localisation: "https://g.co/kgs/SqoN1ta",
   },
   {
     id: 35,
@@ -397,6 +413,7 @@ const doctors = [
     phone: "0656769557",
     moreInfo:
       "Soins dentaires, extractions, soin des gencives et détartrage, blanchiment",
+    localisation: "https://maps.app.goo.gl/2sHZYDthRPgsEG6E6",
   },
   {
     id: 37,
@@ -405,6 +422,7 @@ const doctors = [
     speciality: "Dentist, Orthodontist",
     adress: "Cité Maamoura Bouameur, en Face du grand Bazar",
     phone: "0662279191",
+    localisation: "https://maps.app.goo.gl/ucbpJfNi1ZTmE6f1A",
   },
   {
     id: 38,
@@ -413,6 +431,7 @@ const doctors = [
     speciality: "Dentist",
     adress: "n 8. Bat E. Cite 128 LSP m'hafir (mostakbel)",
     phone: "028732323",
+    localisation: "https://maps.app.goo.gl/1P7jc9bbvUNHA3mL9",
   },
   {
     id: 39,
@@ -421,11 +440,12 @@ const doctors = [
     speciality: "Dentist",
     adress: "rue maamoura près des grossistes",
     phone: "0658509848",
+    localisation: "https://maps.app.goo.gl/UE6qFJv1n39QRqL79",
   },
   {
     id: 40,
     searchTerm: "MédecineGénérale ",
-    name: "CHETTIH.F née Mansouri",
+    name: "Dr CHETTIH.F née Mansouri",
     speciality: "Médecine Générale",
     adress: "Schettet elgharbi	",
     phone: "029118250",
@@ -433,7 +453,7 @@ const doctors = [
   {
     id: 41,
     searchTerm: "Chirurgien Urologue",
-    name: "KORICHI THAMEUR",
+    name: "Dr Korichi Thameur",
     speciality: "Chirurgien urologue",
     adress: "Aflou",
     phone: "0770269948",
@@ -449,11 +469,13 @@ const doctors = [
   {
     id: 43,
     searchTerm: "Neurologie",
-    name: "DR Dameche",
+    name: "DR Dameche Rachida",
     speciality: "Spécialist en neurologie",
     adress: "Av docteur saadane",
     phone: "029134960",
     phone2: "0775103192",
+    moreinfro: "EMG, EEG, PE",
+    localisation: "https://maps.app.goo.gl/Vt1Wk4JhEQesgtSk6",
   },
   {
     id: 44,
@@ -462,6 +484,7 @@ const doctors = [
     speciality: "Médecine Générale",
     adress: "Cité Bouameur maamoura",
     phone: "0770570038",
+    localisation: "https://maps.app.goo.gl/tEssqmW7cDALYewt7",
   },
   {
     id: 45,
@@ -483,7 +506,7 @@ const doctors = [
   {
     id: 47,
     searchTerm: "Rhumatologie",
-    name: "Boulaghmen / Benrahal.B",
+    name: "Dr Boulaghmen / Benrahal.B",
     speciality: "Médecin rhumatologue",
     adress: "El Gharbia",
     phone: "0663221438",
@@ -499,6 +522,7 @@ const doctors = [
     phone: "0697998287",
     phone2: "029125826",
     moreInfo: "أمراض السكري والغدد الصماء",
+    localisation: "https://maps.app.goo.gl/e3rViLcWCRUwfkfp6",
   },
   {
     id: 49,
@@ -635,8 +659,19 @@ const doctors = [
     speciality: "Médecine Générale",
     adress: "ksar el hirane",
     phone: "029139595",
-    phone1: "0799099991",
+    phone2: "0799099991",
     moreInfo: "Echographie generale, ECG, MAPA"
+  },
+  {
+    id: 64,
+    searchTerm: "Neurologie",
+    name: "Dr Boulahbel.H",
+    speciality: "Neurologue",
+    adress: "en face de la daïra de, Av. de l’Indépendance",
+    phone: "0556808520",
+    phone2: "029101834",
+    moreInfo: "EEG, ENMG",
+    localisation: "https://maps.app.goo.gl/NTxAHiGA9V1NxR7r8",
   }
 ];
 
