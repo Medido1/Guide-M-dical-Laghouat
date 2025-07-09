@@ -74,6 +74,7 @@ function DoctorFalcility({item}) {
       {moreInfo && (
         <>
           <button
+            aria-label="show more info"
             onClick={() => setShowMore(prev => !prev)}
             type="button"
             className="px-4 bg-blue-200 font-bold 

@@ -102,7 +102,7 @@ function Main() {
             <FaSearch className="absolute top-1/2 left-3  -translate-y-1/2"/> 
           </div>
           <div className="mr-2">
-            <label htmlFor="speciality"></label>
+            <label htmlFor="speciality" className="sr-only">Speciality</label>
             <select 
               className="bg-white py-2"
               onChange={(e) => setSearchSpeciality(e.target.value)}
@@ -137,6 +137,7 @@ function Main() {
       />
       <div>
         <button
+          aria-label="scroll to top"
           onClick={scrollToTop}
           className="btn"
           >
