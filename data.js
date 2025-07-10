@@ -686,6 +686,26 @@ const doctors = [
     phone2: "029101834",
     moreInfo: "EEG, ENMG",
     localisation: "https://maps.app.goo.gl/NTxAHiGA9V1NxR7r8",
+  },
+  {
+    id:65,
+    searchTerm: "Chirurgie Générale",
+    name: "Dr Ferhat Bachir",
+    speciality: "Chirurgien",
+    adress: "Cité Bouameur Maamourah",
+    phone: "029131884",
+    localisation: "https://maps.app.goo.gl/yXdxnLg4X1C9LyVWA",
+  },
+  {
+    id:66,
+    searchTerm: "Médecine Générale",
+    name: "Dr Maicha A/hamid",
+    speciality: "Médecine Générale",
+    adress: "cité wiam",
+    phone: "029128404",
+    phone2: "0667821800",
+    moreInfo: "diiabétologie Ecographie",
+    localisation: "https://maps.app.goo.gl/CPQNxVbRgQdC6m1T6",
   }
 ];
 
