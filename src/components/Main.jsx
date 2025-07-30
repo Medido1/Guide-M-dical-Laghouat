@@ -80,7 +80,8 @@ function Main() {
     { value: "Anesthésie Réanimation", label: "Anesthésie Réanimation"},
     { value: "Rhumatologie", label: "Rhumatologie"},
     { value: "Pédiatrie", label: "Pédiatrie"},
-    { value: "Chirurgie Générale", label: "Chirurgie Générale"}
+    { value: "Chirurgie Générale", label: "Chirurgie Générale"},
+    { value: "ORL", label: "ORL"}
   ];
   
   return (

@@ -27,7 +27,7 @@ Key Features
   ## Desktop
   ![](./screenshots/desktop.png)
 
-  ## DateBase
+  ## Mobile
   ![](./screenshots/Mobile.png)
 
 ### Links

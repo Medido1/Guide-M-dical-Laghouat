@@ -706,7 +706,40 @@ const doctors = [
     phone2: "0667821800",
     moreInfo: "diiabétologie Ecographie",
     localisation: "https://maps.app.goo.gl/CPQNxVbRgQdC6m1T6",
-  }
+  },
+  {
+    id: 67,
+    searchTerm: "Chirurgie Orthopédique",
+    name: "Dr Choucha Belkacem",
+    speciality: `Spécialiste Orthopédie traumatologie
+      & arthroscopie`,
+    adress: "",
+    phone: "0670666060",
+    email: "cabinetchoucha25@gmail.com",
+  },
+  {
+    id: 68,
+    searchTerm: "Pédiatrie",
+    name: "Dr Bouzara Aissa",
+    speciality: "spécialiste en pediatrie et néonatalogie",
+    adress: "Rue Bachir Rezzoug",
+    phone: "06994255201",
+    email: "bouzara03@gmail.com",
+    localisation: "https://maps.app.goo.gl/5X3U5Lp3Aeht7VyE9",
+  },
+  {
+    id: 69,
+    searchTerm: "ORL",
+    name: "Dr Kadi S.N",
+    speciality: "Médecin spécialiste ORL",
+    adress: "Cité Wiam en face lycée Djoudi Belkacem",
+    phone:"0560653982",
+    phone2:"029149109",
+    moreInfo: `Maladies et chirurgie Nez, Gorge, Oreille, thyroide
+      Chirurgie endoscopique nasofibroscopie
+      otoendoscopie, audiométrie, allergologie`, 
+    localisation: "https://maps.app.goo.gl/BkPKqhdvwCMaiXTBA",
+  },
 ];
 
 const imagingCenters = [
