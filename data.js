@@ -630,7 +630,7 @@ const doctors = [
   },
   {
     id: 59,
-    searchTerm: "Hépato-Gastro-Entérologie",
+    searchTerm: "Gastro-entérologie",
     name: "Dr Tadj Djelloul Amine",
     speciality: "Médecin spécialiste en Hépto-Gastro-Entérologie",
     adress: "شارع المقام",
@@ -740,6 +740,46 @@ const doctors = [
       otoendoscopie, audiométrie, allergologie`, 
     localisation: "https://maps.app.goo.gl/BkPKqhdvwCMaiXTBA",
   },
+  {
+    id: 70,
+    searchTerm: "Médecine générale",
+    name: "Daoudi . A",
+    speciality: "Médecin General et Mésotherapie",
+    adress: "عين ماضي",
+    phone:"0793160747",
+    moreInfo: `طب رجال ونساء واطفال وأمراض الجلد`, 
+  },
+  {
+    id: 71,
+    searcTerm: "Cardiologie",
+    name: "Remmach Djelloul",
+    speciality: "Médecin spécialist Cardiologue",
+    adress: "El-Gharbia",
+    phone: "0665906314",
+    phone1: "029101736",
+    moreInfo: `Maladies Cardiovasculaires, Electrocardiographie
+      Echocardiographie-Dopler, Mesure Ambulatoire de la pression Arterielle(MAPA)`,
+    localisation: 'https://maps.app.goo.gl/Vk2qSrk1jacTrfY78',
+  },
+  {
+    id:72,
+    searcTerm: "Dermatologie",
+    name: "الدكتورة فرنان. ي حرم اوكيد",
+    speciality: "Dermatologie et vénérologie",
+    adress: "حي الوئام وراء المحكمة",
+    phone: "0665791606",
+    localisation: "https://maps.app.goo.gl/CZcmDLfa75c9ERWi7",
+  },
+  {
+    id: 73,
+    searchTerm: "Médecine générale",
+    name: "الحكيم حشاني حشاني",
+    speciality: "Médecine générale",
+    adress: "Maamourah cité  482 Bloc 47 N2",
+    phone: "029100336",
+    phone1: "0663211613",
+    localisation: "https://maps.app.goo.gl/z6WDin1hscp2drDTA",
+  }
 ];
 
 const imagingCenters = [
