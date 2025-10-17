@@ -756,7 +756,7 @@ const doctors = [
     speciality: "Médecin spécialist Cardiologue",
     adress: "El-Gharbia",
     phone: "0665906314",
-    phone1: "029101736",
+    phone2: "029101736",
     moreInfo: `Maladies Cardiovasculaires, Electrocardiographie
       Echocardiographie-Dopler, Mesure Ambulatoire de la pression Arterielle(MAPA)`,
     localisation: 'https://maps.app.goo.gl/Vk2qSrk1jacTrfY78',
@@ -777,8 +777,19 @@ const doctors = [
     speciality: "Médecine générale",
     adress: "Maamourah cité  482 Bloc 47 N2",
     phone: "029100336",
-    phone1: "0663211613",
+    phone2: "0663211613",
     localisation: "https://maps.app.goo.gl/z6WDin1hscp2drDTA",
+  },
+  {
+    id: 74,
+    searchTerm: "Dentist",
+    name: "خويلد ا",
+    speciality: 'عيادة طب الأسنان',
+    adress: 'حي المعمورة فوق سوبيرات قنان بالقرب من جامع الحسين',
+    phone: '0697937570',
+    phone2: '0550550496',
+    moreInfo: `أوقات العمل من 8 صباحا الى 00:00 ليلا `,
+    localisation: 'https://maps.app.goo.gl/N24xJG5AtD8BnhA88',
   }
 ];
 
