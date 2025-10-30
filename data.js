@@ -790,6 +790,15 @@ const doctors = [
     phone2: '0550550496',
     moreInfo: `أوقات العمل من 8 صباحا الى 00:00 ليلا `,
     localisation: 'https://maps.app.goo.gl/N24xJG5AtD8BnhA88',
+  },
+  {
+    id: 75,
+    searchTerm: "Médecine générale",
+    name: "Dr Naitelhocine Rafik",
+    speciality: "Médecine générale",
+    adress: "cité emir khaled",
+    phone: "0554906763",
+    
   }
 ];
 

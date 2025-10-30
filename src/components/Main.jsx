@@ -86,37 +86,38 @@ function Main() {
   
   return (
     <main className="p-4 bg-gray-200 flex flex-col gap-4 flex-grow">
-       <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
-          <div className="relative ">
-            <label htmlFor="search"></label>
-            <input 
-              value={searchTerm}
-              type="text" 
-              placeholder="Search"
-              onChange={e => setSearchTerm(e.target.value)}
-              className="pl-10 p-2" 
-            />
-            <span className="bottom"></span>
-            <span className="right"></span>
-            <span className="top"></span>
-            <span className="left"></span>
-            <FaSearch className="absolute top-1/2 left-3  -translate-y-1/2"/> 
-          </div>
-          <div className="mr-2">
-            <label htmlFor="speciality" className="sr-only">Speciality</label>
-            <select 
-              className="bg-white py-2"
-              onChange={(e) => setSearchSpeciality(e.target.value)}
-              value={searchSpeciality}
-              name="speciality" id="speciality">
-                {specialities.map(({value, label}) => (
-                  <option key={value} value={value}>
-                    {label}
-                  </option>
-                ))}
-            </select>
-          </div>
+      <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
+        <div className="relative">
+          <label htmlFor="search"></label>
+          <input 
+            value={searchTerm}
+            type="text" 
+            placeholder="Search"
+            onChange={e => setSearchTerm(e.target.value)}
+            className="pl-10 p-2" 
+          />
+          <span className="bottom"></span>
+          <span className="right"></span>
+          <span className="top"></span>
+          <span className="left"></span>
+          <FaSearch className="absolute top-1/2 left-3  -translate-y-1/2"/> 
         </div>
+        <div className="mr-2">
+          <label htmlFor="speciality" className="sr-only">Speciality</label>
+          <select 
+            className="bg-white py-2"
+            onChange={(e) => setSearchSpeciality(e.target.value)}
+            value={searchSpeciality}
+            name="speciality" id="speciality"
+          >
+            {specialities.map(({value, label}) => (
+              <option key={value} value={value}>
+                {label}
+              </option>
+            ))}
+          </select>
+        </div>
+      </div>
       {!showJustDoctors && 
         <Category 
           type = "Laboratoires d'analyses"
